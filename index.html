@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Play songs anywhere</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="image-list">
+                <img src="utilities/logo.png" alt="Spotify"><span>Spotify</span>
+            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About</a></li>
+        </ul>
+    </nav>
+    <div class="center-block">
+        <h2>Listen To The Songs - On spotify</h2>
+        <section class="music">
+            <div class="music-items" id="1">
+                <img src="covers/2.jpg">
+                <span class="music-name">Let me love you</span>
+                <span>
+                    <i class="fa-solid fa-play icon"></i>
+                </span>
+            </div>
+            <div class="music-items" id="2">
+                <img src="covers/2.jpg">
+                <span class="music-name">Let me love you</span>
+                <span>
+                    <i class="fa-solid fa-play icon"></i>
+                </span>
+            </div>
+            <div class="music-items" id="3">
+                <img src="covers/2.jpg">
+                <span class="music-name">Let me love you</span>
+                <span>
+                    <i class="fa-solid fa-play icon"></i>
+                </span>
+            </div>
+            <div class="music-items" id="4">
+                <img src="covers/2.jpg">
+                <span class="music-name">Let me love you</span>
+                <span>
+                    <i class="fa-solid fa-play icon"></i>
+                </span>
+            </div>
+            <div class="music-items" id="5">
+                <img src="covers/2.jpg">
+                <span class="music-name">Let me love you</span>
+                <span>
+                    <i class="fa-solid fa-play icon"></i>
+                </span>
+            </div>
+        </section>
+    </div>
+    <div class="medium">
+        <input type="range" name="range" id="Scroller">
+        <div class="svgs">
+            <img src="utilities/playing.gif" id="giff">
+            <span id="curr" style="color: white;">Marjaani Marjaani - Default</span>
+            <i class="fa-solid fa-backward-step icons" id="left"></i>
+            <i class="fa-solid fa-play icons" id="play-pause"></i>
+            <i class="fa-solid fa-forward-step icons" id="right"></i>
+        </div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+
+</html>
